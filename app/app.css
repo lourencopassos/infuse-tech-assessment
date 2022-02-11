@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#app {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.content input, .content button {
+  margin: 10px 0;
+  height: 30px;
+}
+.reversed {
+  text-align: center;
+}
